@@ -1,0 +1,31 @@
+.name {
+  margin: 0;
+  font-weight: 500;
+}
+
+.list {
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.item {
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 7px;
+  width: 52px;
+}
+
+.status {
+  margin: 0;
+  font-size: 10px;
+}
+
+.status.red {
+  color: red;
+}
+.status.green {
+  color: green;
+}
